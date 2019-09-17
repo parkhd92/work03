@@ -1,0 +1,211 @@
+
+
+
+@media screen and (min-width:1280px) and (max-width:1439px){
+    #section .story{height:500px;}
+    #section .story .logo_story{margin-top:150px;}
+    #section .story .logo_story img{width:80px;}
+    #section .story h2{margin-top:10px;}
+    #section .story p{margin-top:20px;}
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    #section .story{height:400px;}
+    #section .story .logo_story{display:none;}
+    #section .story .logo_story img{width:80px;}
+    #section .story h2{margin-top:150px;}
+    #section .story p{margin-top:50px;}
+
+    #section03 .gallery_area{height:1000px;}
+    #section03 .gallery_area .gallery{height:500px;}
+
+    #footer .map{margin-left:5%;}
+    #footer .contact{margin-left:15%;}
+    #footer .followUs{margin-left:15%;}
+    #footer .company li a img{width:150px;}
+    #footer .down_area .company{margin-left:-320px;}
+}
+
+@media screen and (min-width:780px) and (max-width:1023px){
+    #gnb .nav{display:none;}
+    #gnb .etc{display:none;}
+    .m_menu{width:30px; height:50px; float:right; margin-top:20px; cursor:pointer;}
+    .m_menu .line01{width:30px; height:3px; background:#000; margin-top:10px;}
+    .m_menu .line02{width:30px; height:3px; background:#000; margin-top:10px;}
+    .m_menu .line03{width:30px; height:3px; background:#000; margin-top:10px;}
+
+    #section .story{height:400px;}
+    #section .story .logo_story{display:none;}
+    #section .story .logo_story img{width:80px;}
+    #section .story h2{margin-top:150px;}
+    #section .story p{margin-top:50px;}
+
+    #section03 .gallery_area{height:1000px;}
+    #section03 .gallery_area .gallery{width: 100%; height:500px;}
+    #section03 .gallery_area .gallery img{width: 100%;}
+    #section03 .gallery_area .gallery03{margin-top:0;}
+    #section03 .gallery_area .gallery04{margin-top:0;}
+
+    #footer .up_area>div h3{font-size:20px; font-weight:500;}
+    #footer .map{margin-left:5%;}
+    #footer .contact{margin-left:17%;}
+    #footer .followUs{margin-left:17%;}
+    #footer .followUs ul{width:50px;}
+    #footer .followUs ul li a img{width:40px;}
+    #footer .company li a img{width:100px;}
+    #footer .down_area .company{margin-left:-250px;}
+}
+
+
+
+@media screen and (min-width:480px) and (max-width:779px) {
+    #gnb .nav{display:none;}
+    #gnb .etc{display:none;}
+    .m_menu{width:30px; height:50px; float:right; margin-top:20px; cursor:pointer;}
+    .m_menu .line01{width:30px; height:3px; background:#000; margin-top:10px;}
+    .m_menu .line02{width:30px; height:3px; background:#000; margin-top:10px;}
+    .m_menu .line03{width:30px; height:3px; background:#000; margin-top:10px;}
+
+    #main_area .main_video .logo_video img {width:50px;}
+    #section{margin-top:100px;}
+    #section .story{height:300px;}
+    #section .story .logo_story{display:none;}
+    #section .story .logo_story img{width:80px;}
+    #section .story h2{margin-top:50px; text-align:left; margin-left:20px;}
+    #section .story p{margin-top:50px; text-align:left; width:300px; margin-left:20px;}
+    #section .story .btn_story button{margin-left:20px; margin-top:20px;}
+    #section02 .swiper-container{
+        width:1600px;
+        height:300px;
+        position:absolute;
+        top:200px;
+        left:12%;
+    }
+    #section02 .swiper-container .mobile-slide {display:block;}
+
+
+    #section03 .gallery_area{height:1000px;}
+    #section03 .gallery_area .gallery{width: 100%; height:300px;}
+    #section03 .gallery_area .gallery03{margin-top:0;}
+    #section03 .gallery_area .gallery04{margin-top:0;}
+    #section03 .gallery_area .gallery img{width: 100%; height:auto;}
+
+    #section03 .gallery_area .gallery .gallery_bg h4{color:#fff; font-size:20px; text-align: center; font-family: 'Merriweather', serif; margin-top:0px;}
+    #section03 .gallery_area .gallery .gallery_bg p{color:#fff; font-size:14px; text-align: center; margin-top:30px;}
+    #section03 .gallery_area .gallery .gallery_bg button{color:#fff; background: none; font-size:18px; border:none; display: block; margin:30px auto; cursor:pointer;}
+    #section03 .gallery_area .gallery .gallery_bg div{opacity:0; margin-top:100px;}
+
+    #wrap #section04 .product_link>ul>li img{width:200px;}
+    #section04 .product_link{height:400px;}
+    #section04 .product_link>ul>li a{font-size:25px;}
+    #section04{overflow: hidden;}
+    #section04 .product_link>ul>li.link01{left:80px;}
+    #section04 .product_link>ul>li.link02{left:180px;}
+    #section04 .product_link>ul>li.link03{top:130px; left:80px;}
+    #section04 .product_link>ul>li.link04{top:130px; left:250px;}
+    #section04 .product_link>ul>li.link05{top:180px; left:80px;}
+    #section04 .product_link>ul>li.link06{top:180px; left:200px;}
+    #section04 .product_link>ul>li.link07{left:300px;}
+    #section04 .product_link>ul>li.link08{top:230px; left:80px;}
+
+    #footer .up_area>div h3{font-size:16px; font-weight:500;}
+    #footer .map{width:100%; height:100px; float:left; margin-left:0; border-bottom:1px solid #aaa;}
+    #footer .map h3{float:left;}
+    #footer .map ul{float:right; margin-top:40px;}
+    #footer .map ul li{float:left; margin-left:30px;}
+    #footer .map ul li a{font-size:14px; color:#aaa;}
+    #footer .contact{width:100%; height:100px; float:left; margin-left:0; border-bottom:1px solid #aaa;}
+    #footer .contact h3{float:left;}
+    #footer .contact address{float:right; color:#aaa; margin-top:44px;}
+    #footer .contact p{display:none;}
+    #footer .followUs{width:100%; height:100px; float:left; margin-left:0;}
+    #footer .followUs h3{float:left;}
+    #footer .followUs ul{width:150px; float:right; margin-top:30px;}
+    #footer .followUs ul li a img{width:40px;}
+    #footer .company li a img{width:100px; margin-right:21px;}
+    #footer .down_area .company{margin-left:-200px;}
+
+
+
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:479px){
+    #gnb .nav{display:none;}
+    #gnb .etc{display:none;}
+    .m_menu{width:30px; height:50px; float:right; margin-top:20px; cursor:pointer;}
+    .m_menu .line01{width:30px; height:3px; background:#000; margin-top:10px;}
+    .m_menu .line02{width:30px; height:3px; background:#000; margin-top:10px;}
+    .m_menu .line03{width:30px; height:3px; background:#000; margin-top:10px;}
+
+    #main_area .m_main_img{display:block; float:left;}
+    #main_area .main_video{display:none;}
+    #section{margin-top:70px; overflow: hidden;}
+    #section .story{height:300px; width:100%;}
+    #section .story .logo_story{display:none;}
+    #section .story .logo_story img{width:80px;}
+    #section .story h2{margin-top:50px; text-align:left; margin-left:20px;}
+    #section .story p{margin-top:50px; text-align:left; width:300px; margin-left:20px;}
+    #section .story .btn_story button{margin-left:20px; margin-top:20px;}
+    #section02 .product{width:100%;}
+    #section02 .product h2{
+        float:left;
+        margin-top:60px;
+        font-size:30px;
+        font-weight:300;
+        width:100%;
+        padding-left:20px;
+    }
+    #section02 .swiper-container{
+        width:1200px;
+        height:300px;
+        position:absolute;
+        top:200px;
+        left:12%;
+    }
+    #section02 .swiper-container .mobile-slide {display:block;}
+
+    #section03 .gallery_area .gallery .m_gallery_txt{display:block;}
+
+    #section03 .gallery_area{height:1000px; width:100%;}
+    #section03 .gallery_area .gallery{width: 100%; height:300px;}
+    #section03 .gallery_area .gallery03{margin-top:0;}
+    #section03 .gallery_area .gallery04{margin-top:0;}
+    #section03 .gallery_area .gallery img{width: auto; height:100%;}
+
+    #section03 .gallery_area .gallery .gallery_bg{display:none;}
+
+    #wrap #section04 .product_link>ul>li img{width:200px;}
+    #section04 .product_link{height:400px; width:100%;}
+    #section04 .product_link>ul>li a{font-size:25px;}
+    #section04{overflow: hidden;}
+    #section04 .product_link>ul>li.link01{left:120px;}
+    #section04 .product_link>ul>li.link02{left:220px;}
+    #section04 .product_link>ul>li.link03{top:130px; left:120px;}
+    #section04 .product_link>ul>li.link04{top:130px; left:280px;}
+    #section04 .product_link>ul>li.link05{top:180px; left:120px;}
+    #section04 .product_link>ul>li.link06{top:180px; left:220px;}
+    #section04 .product_link>ul>li.link07{left:340px;}
+    #section04 .product_link>ul>li.link08{top:230px; left:120px;}
+
+    #footer .up_area>div h3{font-size:16px; font-weight:500;}
+    #footer .down_area{width:100%;}
+    #footer .map{width:100%; height:100px; float:left; margin-left:0; border-bottom:1px solid #aaa;}
+    #footer .map h3{float:left; margin-top:20px;}
+    #footer .map ul{float:right; margin-top:10px;}
+    #footer .map ul li{float:left; margin-left:30px;}
+    #footer .map ul li a{font-size:14px; color:#aaa;}
+    #footer .contact{width:100%; height:100px; float:left; margin-left:0; border-bottom:1px solid #aaa;}
+    #footer .contact h3{float:left;}
+    #footer .contact address{float:right; color:#aaa; margin-top:44px;}
+    #footer .contact p{display:none;}
+    #footer .followUs{width:100%; height:100px; float:left; margin-left:0;}
+    #footer .followUs h3{float:left;}
+    #footer .followUs ul{width:150px; float:right; margin-top:30px;}
+    #footer .followUs ul li a img{width:40px;}
+    #footer .company li a img{width:100px; margin-top:20px;}
+    #footer .down_area .company{margin-left:-50px; width:100px; top:10px;}
+}

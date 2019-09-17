@@ -1,0 +1,213 @@
+#wrap{width:100%;}
+#header{width:100%; height:80px; float:left; position:fixed; z-index: 999; background: #111;}
+#gnb{width:90%; height:80px; background: #111; margin:0 auto; position:relative;}
+#gnb h1{width:80px; height:80px; float:left;}
+#gnb h1 a img{width:80px; margin-top:10px;}
+#gnb .nav{float:left; position:absolute; top:0; left:50%; margin-left:-250px;}
+#gnb .nav>li{position:relative;}
+#gnb .nav>li>a{
+    color:#fff;
+    display:block;
+    height:80px;
+    line-height: 80px;
+    font-size:14px;
+    font-weight:500;
+    margin-right:100px;
+}
+#gnb .nav>li ul{position:absolute; z-index: 101; left:-30px; display:none;}
+#gnb .nav>li ul li a{
+    display:block;
+    height:60px;
+    line-height:60px;
+    font-weight:300;
+    width:150px;
+    padding-left: 30px;
+    background: #fff;
+}
+
+#gnb form input{width:800px; display:block; height:40px; padding-left:30px; position:absolute; left:600px; top:20px; display:none; opacity:0; border:1px solid #fff; background-color:#111; color:#fff;}
+
+
+
+
+#gnb .etc{float:right;}
+#gnb .etc>li{
+    width:80px;
+    height:80px;
+    line-height: 80px;
+    text-align:right;
+    position:relative;
+}
+#gnb .etc li a img{width:20px;}
+#gnb .etc>li ul{position:absolute; top:60px; right:-20px; border:1px solid #eee; display:none; z-index:101;}
+#gnb .etc>li ul li a{
+    display:block;
+    width:180px;
+    height:60px;
+    text-align:left;
+    line-height: 60px;
+    font-size:14px;
+    border-bottom:1px solid #eee;
+    padding-left:20px;
+    font-weight:300;
+    color:#3397e2;
+    background: #fff;
+}
+#gnb .etc>li ul li a img{margin-top:20px; float:left; margin-right:20px;}
+#gnb .etc>li ul li a.first_box{color:#3d3d3d; background: #eee; height:100px; line-height:100px;}
+
+
+
+#brand_area{width:90%; float:left; margin-left:5%;}
+.banners{width:100%; margin:0 auto; height:1000px;}
+.banner01{width:100%; height:100%; overflow:hidden;}
+.banner02{width:100%; height:100%; overflow:hidden;}
+.banner03{width:100%; height:100%; overflow:hidden;}
+#brand_area .banners div img{width:100%; display:block; position:absolute;}
+.swiper-button-next{background-image:url(../img/right.png);}
+.swiper-button-prev{background-image:url(../img/left.png);}
+
+#brand_area .banners .banner01 .banner_text{position:absolute; top:40%; left:20%;}
+#brand_area .banners .banner01 .banner_text h2{font-size:50px; color:#fff; font-family: 'Merriweather', serif;}
+#brand_area .banners .banner01 .banner_text p{font-size:14px; color:#fff; margin-top:30px; line-height: 30px;}
+
+#brand_area .banners .banner02 .banner_text{position:absolute; top:60%; left:20%;}
+#brand_area .banners .banner02 .banner_text h2{font-size:50px; color:#fff; font-family: 'Merriweather', serif;}
+#brand_area .banners .banner02 .banner_text p{font-size:14px; color:#fff; margin-top:30px; line-height: 30px;}
+
+#brand_area .banners .banner03 .banner_text{position:absolute; top:20%; left:20%;}
+#brand_area .banners .banner03 .banner_text h2{font-size:50px; color:#fff; font-family: 'Merriweather', serif;}
+#brand_area .banners .banner03 .banner_text p{font-size:14px; color:#fff; margin-top:30px; line-height: 30px;}
+
+#companyArea{width:100%; float:left; margin-top:100px; position:relative;}
+.companys{width:90%; margin:0 auto; height:600px; overflow:hidden; position:relative;}
+.companys>div{width:32%; height:600px; background: #fff; position:absolute;}
+.companys .company03{margin-right:0;}
+.companys .company01{background: url(../img/br01.jpg) no-repeat center; opacity:1;}
+.companys .company02{background: url(../img/aboutBg.jpg) no-repeat -400px center; opacity:1; left:34%;}
+.companys .company03{background: url(../img/br03.jpg) no-repeat center; opacity:1; right:0;}
+
+
+
+
+#companyArea .text{position:absolute; bottom:100px; left:10%; opacity:1;}
+#companyArea .text h3 img{width:300px;}
+#companyArea .text p{color:#fff; font-size: 18px;}
+#companyArea .text span{color:#fff; font-size: 14px; margin-top:20px; display:block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section04{width:100%; float:left; margin-top:100px;}
+#section04 .product_link{width:90%; height:500px; background: #111 url(../img/contact_bg.jpg) no-repeat center center; margin:0 auto; background-attachment: fixed;}
+#section04 .product_link>ul{position:relative; top:50px; left:50%; width:560px; height:500px; margin-left:-280px;}
+#section04 .product_link>ul>li{ position:absolute; top:80px;}
+#section04 .product_link>ul>li a{
+    font-size:45px;
+    font-weight:600;
+    color:#fff;
+    display:block;
+    margin-right:20px;
+    text-align: center;
+    position:relative;
+    z-index:90;
+}
+#section04 .product_link>ul>li.link01{left:30px;}
+#section04 .product_link>ul>li.link02{left:200px;}
+#section04 .product_link>ul>li.link03{top:130px; left:30px;}
+#section04 .product_link>ul>li.link04{top:130px; left:300px;}
+#section04 .product_link>ul>li.link05{top:180px; left:30px;}
+#section04 .product_link>ul>li.link06{top:180px; left:200px;}
+#section04 .product_link>ul>li.link07{left:400px;}
+#section04 .product_link>ul>li.link08{top:230px; left:30px;}
+
+#section04 .product_link>ul>li>ul{display:none; z-index: 95;}
+#section04 .product_link>ul>li.link01>ul{position:absolute; top:-100px; left:-80px;}
+#section04 .product_link>ul>li.link01>ul li{position:absolute;}
+#section04 .product_link>ul>li.link01>ul li img{width:300px;}
+
+#section04 .product_link>ul>li.link02>ul{position:absolute; top:-100px; left:-80px;}
+#section04 .product_link>ul>li.link02>ul li{position:absolute;}
+#section04 .product_link>ul>li.link02>ul li img{width:300px;}
+
+#section04 .product_link>ul>li.link03>ul{position:absolute; top:-100px; left:-30px;}
+#section04 .product_link>ul>li.link03>ul li{position:absolute;}
+#section04 .product_link>ul>li.link03>ul li img{width:300px;}
+
+#section04 .product_link>ul>li.link04>ul{position:absolute; top:-100px; left:-30px;}
+#section04 .product_link>ul>li.link04>ul li{position:absolute;}
+#section04 .product_link>ul>li.link04>ul li img{width:300px;}
+
+#section04 .product_link>ul>li.link05>ul{position:absolute; top:-100px; left:-80px;}
+#section04 .product_link>ul>li.link05>ul li{position:absolute;}
+#section04 .product_link>ul>li.link05>ul li img{width:300px;}
+
+#section04 .product_link>ul>li.link06>ul{position:absolute; top:-100px; left:-10px;}
+#section04 .product_link>ul>li.link06>ul li{position:absolute;}
+#section04 .product_link>ul>li.link06>ul li img{width:300px;}
+
+#section04 .product_link>ul>li.link07>ul{position:absolute; z-index:1; top:-100px; left:-80px;}
+#section04 .product_link>ul>li.link07>ul li{position:absolute;}
+#section04 .product_link>ul>li.link07>ul li img{width:300px;}
+
+#section04 .product_link>ul>li.link08>ul{position:absolute; z-index:1; top:-100px; left:0px;}
+#section04 .product_link>ul>li.link08>ul li{position:absolute;}
+#section04 .product_link>ul>li.link08>ul li img{width:300px;}
+
+
+#footer{width:100%; float:left;}
+#footer .up_area{width:90%; height:300px; margin:0 auto;}
+#footer .down_area{width:90%; height:500px; margin:0 auto; background: #111 url(../img/contact_bg.jpg) no-repeat center center; background-attachment: fixed; position:relative;}
+
+#footer .map{width:20%; height:300px; float:left; margin-left:20%;}
+#footer .contact{width:20%; height:300px; float:left; margin-left:40px;}
+#footer .followUs{width:20%; height:300px; float:left; margin-left:70px;}
+
+#footer .map h3{margin-top:40px; font-size:30px; font-weight:300; color:#fff;}
+#footer .map ul{margin-top:20px;}
+#footer .map ul li{margin-bottom:10px;}
+#footer .map ul li a{color:#aaa;}
+
+#footer .contact h3{margin-top:40px; font-size:30px; font-weight:300; color:#fff;}
+#footer .contact address{margin-top:20px; font-style:normal; font-size:14px; color:#aaa;}
+#footer .contact p{font-size:14px; margin-top:10px; color:#aaa;}
+
+#footer .followUs h3{margin-top:40px; font-size:30px; font-weight:300; color:#fff;}
+
+
+#footer .followUs ul li a img{width:50px;}
+#footer .followUs ul li{float:left; margin-right:10px;}
+#footer .followUs ul{ margin-top:20px;}
+
+
+#footer .down_area div{text-align: center;}
+#footer .down_area div>img{width:150px; margin-top:200px;}
+#footer .down_area p{ float:left; width:100%; text-align: center; margin-top:20px; font-size:12px; color:#fff;}
+
+#footer .down_area ul{width:240px; margin:0 auto; margin-top:20px;}
+#footer .down_area ul li a{display: block; color:#fff; font-size:12px; margin-right:20px;}
+#footer .down_area ul li.noMargin a{margin-right:0;}
+#footer .down_area .company{position:absolute; width:auto;  left:50%; margin-left:-400px; top:60px;}
+#footer .company li a img{width:200px; margin-right:80px;}
+
+
+
+
+/* end */

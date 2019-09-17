@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap');
+/* kor - Noto Sans KR // 'Noto Sans KR', sans-serif; */
+/* eng - Raleway // 'Raleway', sans-serif; */
+
+
+*{
+    margin:0;
+    padding:0;
+    color:#3d3d3d;
+    letter-spacing: -0.5px;
+}
+body{font-family:'Noto Sans KR', sans-serif;}
+.fl{float:left;}
+.cf:after{content:""; display:block; clear:both;}
+img{border-style:none;}
+a{text-decoration:none;}
+li{list-style: none;}
